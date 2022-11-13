@@ -1,0 +1,15 @@
+"""nombre = "Arlette"
+apellido = "Portilla"
+print(type(apellido)(nombre))
+
+nombresApellidos =["Arlette","Portilla"]
+print(nombresApellidos )
+"""
+#ejercicio11
+resultado = 0
+while resultado<=10:
+    print(resultado)
+    resultado = resultado+1
+   
+    
+
