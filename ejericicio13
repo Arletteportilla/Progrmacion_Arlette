@@ -1,0 +1,4 @@
+numeros = range(10)
+for i in numeros:
+    if i % 3 == 0:
+        print (i)

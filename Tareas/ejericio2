@@ -1,8 +1,5 @@
-#ejercicio11
-resultado = 0
-while resultado<=10:
-    print(resultado)
-    resultado = resultado+1
-   
-    
-
+#Ejercicio2
+nombre = "Arlette"
+apellido = "Portilla"
+string ="Arlette","Portilla"
+print(string[::-1])

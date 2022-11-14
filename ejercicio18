@@ -1,0 +1,6 @@
+num1 = input("Escriba un número: ")
+num2 = input("Escriba otro número: ")
+
+suma = int(num1) + int(num2)
+
+print(" El sumando es: ", suma)

@@ -1,0 +1,18 @@
+
+variable =True 
+suma= 0
+while variable ==True:
+
+    print("MENU")
+    print("[1] Ingresar numero")
+    print("[2] Salir")
+   
+    
+    menu= int(input("Eliga un numero del menu ->"))
+    if menu==1:
+        num= int(input("Ingresa un numero -> "))
+        suma= suma+num
+    else:
+        variable=False
+
+print(f"La suma de los numeros ingresados es: {suma}")

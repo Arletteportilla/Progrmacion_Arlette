@@ -1,0 +1,3 @@
+autor = "Carlos Cuauhtémoc Sánchez"
+titulo = "Los ojos de mi princesa"
+print(f"Libro: {titulo} , autor: {autor}")

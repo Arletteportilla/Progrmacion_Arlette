@@ -1,0 +1,7 @@
+
+tupla = (13, 1, 8, 3, 2, 5, 8)
+min= tupla[0]
+for tupla in tupla:
+    if tupla< 5:
+        min= tupla
+        print("El mínimo es " + str(min)) 
