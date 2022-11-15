@@ -1,15 +1,15 @@
-calificacion=float(input("Ingrese su calificacion:"))
+nota=float(input("Ingrese su calificacion:"))
 
-if calificacion>=9 and calificacion <= 10:
-    print(f"{calificacion:} A")
-elif calificacion>=8 and calificacion<9:
-    print(f"{calificacion:} B")
-elif calificacion>=7 and calificacion<8:
-    print(f"{calificacion:} C")
-elif calificacion>=6 and calificacion<7:
-    print(f"{calificacion:} D")
-elif calificacion>=0 and calificacion<6:
-    print(f"{calificacion:} F")
+if nota>=9 and nota <= 10:
+    print(f"{nota:} A")
+elif nota>=8 and nota<9:
+    print(f"{nota:} B")
+elif nota>=7 and nota<8:
+    print(f"{nota:} C")
+elif nota>=6 and nota<7:
+    print(f"{nota:} D")
+elif nota>=0 and nota<6:
+    print(f"{nota:} F")
 else:
     print("Calificacion desconocida") 
 
